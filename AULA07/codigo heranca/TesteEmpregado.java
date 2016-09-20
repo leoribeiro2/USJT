@@ -1,16 +1,16 @@
 public class TesteEmpregado{
    public static void main(String[] args){
       Empregado emp1 = new Empregado("Joao da Silva");
-      System.out.println(emp1.getNome());
-      System.out.println(emp1.salario());
+      System.out.println(emp1.toString());
       
-      Empregado emp2 = new Mensalista("Jose Pereira", 3500.00);
-      System.out.println(emp2.getNome());
-      System.out.println(emp2.salario());
+      Mensalista emp2 = new Mensalista("Jose Pereira", 3500.00);
+      System.out.println(emp2.toString());
       
-      Empregado emp3 = new Comissionado("Maria Pereira", 1500.00, 5000.00);
-      System.out.println(emp3.getNome());
-      System.out.println(emp3.salario());
+      Comissionado emp3 = new Comissionado("Maria Pereira", 1500.00, 5000.00);
+      System.out.println(emp3.toString());
+      
+      Horista emp4 = new Horista ("Leonardo", 100, 50);
+      System.out.println(emp4.toString());
    }
 
 }

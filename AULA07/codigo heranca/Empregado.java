@@ -16,4 +16,8 @@ public class Empregado{
    public double salario(){
       return 0.0;
    }
+   
+   public String toString(){
+      return getNome() + " - " + salario();
+   }
 }
